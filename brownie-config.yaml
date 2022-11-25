@@ -1,0 +1,10 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@3.0.0
+
+
+dotenv: .env
+networks:
+  default: development
+  Goerli: active
+wallets:
+  from_key: ${PRIVATE_KEY}
